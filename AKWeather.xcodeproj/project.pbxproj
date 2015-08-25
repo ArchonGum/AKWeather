@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D17385681B8C511200A0520B /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385501B8C511200A0520B /* LeftViewController.swift */; };
+		D17385691B8C511200A0520B /* MainCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385511B8C511200A0520B /* MainCenterViewController.swift */; };
+		D173856A1B8C511200A0520B /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385521B8C511200A0520B /* RightViewController.swift */; };
+		D173856B1B8C511200A0520B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17385541B8C511200A0520B /* Images.xcassets */; };
+		D173856C1B8C511200A0520B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385571B8C511200A0520B /* Alamofire.swift */; };
+		D173856D1B8C511200A0520B /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385581B8C511200A0520B /* Download.swift */; };
+		D173856E1B8C511200A0520B /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385591B8C511200A0520B /* Manager.swift */; };
+		D173856F1B8C511200A0520B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855A1B8C511200A0520B /* MultipartFormData.swift */; };
+		D17385701B8C511200A0520B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855B1B8C511200A0520B /* ParameterEncoding.swift */; };
+		D17385711B8C511200A0520B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855C1B8C511200A0520B /* Request.swift */; };
+		D17385721B8C511200A0520B /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855D1B8C511200A0520B /* ResponseSerialization.swift */; };
+		D17385731B8C511200A0520B /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855E1B8C511200A0520B /* ServerTrustPolicy.swift */; };
+		D17385741B8C511200A0520B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173855F1B8C511200A0520B /* Upload.swift */; };
+		D17385751B8C511200A0520B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385601B8C511200A0520B /* Validation.swift */; };
+		D17385761B8C511200A0520B /* KGDrawerAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385621B8C511200A0520B /* KGDrawerAnimating.swift */; };
+		D17385771B8C511200A0520B /* KGDrawerSpringAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385631B8C511200A0520B /* KGDrawerSpringAnimator.swift */; };
+		D17385781B8C511200A0520B /* KGDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385641B8C511200A0520B /* KGDrawerView.swift */; };
+		D17385791B8C511200A0520B /* KGDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17385651B8C511200A0520B /* KGDrawerViewController.swift */; };
+		D173857A1B8C511200A0520B /* AKWeather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17385671B8C511200A0520B /* AKWeather.storyboard */; };
 		D177144C1B8C04D500362A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D177144B1B8C04D500362A44 /* AppDelegate.swift */; };
-		D177144E1B8C04D500362A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D177144D1B8C04D500362A44 /* ViewController.swift */; };
-		D17714511B8C04D500362A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D177144F1B8C04D500362A44 /* Main.storyboard */; };
-		D17714531B8C04D500362A44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17714521B8C04D500362A44 /* Images.xcassets */; };
-		D17714561B8C04D500362A44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17714541B8C04D500362A44 /* LaunchScreen.xib */; };
 		D17714621B8C04D600362A44 /* AKWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17714611B8C04D600362A44 /* AKWeatherTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +41,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D17385501B8C511200A0520B /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		D17385511B8C511200A0520B /* MainCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCenterViewController.swift; sourceTree = "<group>"; };
+		D17385521B8C511200A0520B /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		D17385541B8C511200A0520B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D17385571B8C511200A0520B /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		D17385581B8C511200A0520B /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		D17385591B8C511200A0520B /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		D173855A1B8C511200A0520B /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		D173855B1B8C511200A0520B /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		D173855C1B8C511200A0520B /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D173855D1B8C511200A0520B /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		D173855E1B8C511200A0520B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D173855F1B8C511200A0520B /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		D17385601B8C511200A0520B /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		D17385621B8C511200A0520B /* KGDrawerAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDrawerAnimating.swift; sourceTree = "<group>"; };
+		D17385631B8C511200A0520B /* KGDrawerSpringAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDrawerSpringAnimator.swift; sourceTree = "<group>"; };
+		D17385641B8C511200A0520B /* KGDrawerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDrawerView.swift; sourceTree = "<group>"; };
+		D17385651B8C511200A0520B /* KGDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDrawerViewController.swift; sourceTree = "<group>"; };
+		D17385671B8C511200A0520B /* AKWeather.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AKWeather.storyboard; sourceTree = "<group>"; };
 		D17714461B8C04D500362A44 /* AKWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D177144A1B8C04D500362A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D177144B1B8C04D500362A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D177144D1B8C04D500362A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D17714501B8C04D500362A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D17714521B8C04D500362A44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D17714551B8C04D500362A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D177145B1B8C04D600362A44 /* AKWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17714601B8C04D600362A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17714611B8C04D600362A44 /* AKWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKWeatherTests.swift; sourceTree = "<group>"; };
@@ -56,6 +86,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D173854F1B8C511200A0520B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D17385501B8C511200A0520B /* LeftViewController.swift */,
+				D17385511B8C511200A0520B /* MainCenterViewController.swift */,
+				D17385521B8C511200A0520B /* RightViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D17385531B8C511200A0520B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D17385541B8C511200A0520B /* Images.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D17385551B8C511200A0520B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D17385561B8C511200A0520B /* Alamofire */,
+				D17385611B8C511200A0520B /* KGFloatingDrawer */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		D17385561B8C511200A0520B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				D17385571B8C511200A0520B /* Alamofire.swift */,
+				D17385581B8C511200A0520B /* Download.swift */,
+				D17385591B8C511200A0520B /* Manager.swift */,
+				D173855A1B8C511200A0520B /* MultipartFormData.swift */,
+				D173855B1B8C511200A0520B /* ParameterEncoding.swift */,
+				D173855C1B8C511200A0520B /* Request.swift */,
+				D173855D1B8C511200A0520B /* ResponseSerialization.swift */,
+				D173855E1B8C511200A0520B /* ServerTrustPolicy.swift */,
+				D173855F1B8C511200A0520B /* Upload.swift */,
+				D17385601B8C511200A0520B /* Validation.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		D17385611B8C511200A0520B /* KGFloatingDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				D17385621B8C511200A0520B /* KGDrawerAnimating.swift */,
+				D17385631B8C511200A0520B /* KGDrawerSpringAnimator.swift */,
+				D17385641B8C511200A0520B /* KGDrawerView.swift */,
+				D17385651B8C511200A0520B /* KGDrawerViewController.swift */,
+			);
+			path = KGFloatingDrawer;
+			sourceTree = "<group>";
+		};
+		D17385661B8C511200A0520B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D17385671B8C511200A0520B /* AKWeather.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D177143D1B8C04D500362A44 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				D177144B1B8C04D500362A44 /* AppDelegate.swift */,
-				D177144D1B8C04D500362A44 /* ViewController.swift */,
-				D177144F1B8C04D500362A44 /* Main.storyboard */,
-				D17714521B8C04D500362A44 /* Images.xcassets */,
-				D17714541B8C04D500362A44 /* LaunchScreen.xib */,
+				D173854F1B8C511200A0520B /* Controller */,
+				D17385661B8C511200A0520B /* View */,
+				D17385531B8C511200A0520B /* Source */,
+				D17385551B8C511200A0520B /* ThirdParty */,
 				D17714491B8C04D500362A44 /* Supporting Files */,
 			);
 			path = AKWeather;
@@ -192,9 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17714511B8C04D500362A44 /* Main.storyboard in Resources */,
-				D17714561B8C04D500362A44 /* LaunchScreen.xib in Resources */,
-				D17714531B8C04D500362A44 /* Images.xcassets in Resources */,
+				D173856B1B8C511200A0520B /* Images.xcassets in Resources */,
+				D173857A1B8C511200A0520B /* AKWeather.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D177144E1B8C04D500362A44 /* ViewController.swift in Sources */,
+				D17385701B8C511200A0520B /* ParameterEncoding.swift in Sources */,
+				D17385781B8C511200A0520B /* KGDrawerView.swift in Sources */,
+				D17385691B8C511200A0520B /* MainCenterViewController.swift in Sources */,
+				D173856C1B8C511200A0520B /* Alamofire.swift in Sources */,
+				D17385731B8C511200A0520B /* ServerTrustPolicy.swift in Sources */,
+				D173856F1B8C511200A0520B /* MultipartFormData.swift in Sources */,
+				D173856A1B8C511200A0520B /* RightViewController.swift in Sources */,
+				D17385761B8C511200A0520B /* KGDrawerAnimating.swift in Sources */,
+				D17385751B8C511200A0520B /* Validation.swift in Sources */,
+				D17385741B8C511200A0520B /* Upload.swift in Sources */,
+				D173856D1B8C511200A0520B /* Download.swift in Sources */,
+				D17385791B8C511200A0520B /* KGDrawerViewController.swift in Sources */,
+				D173856E1B8C511200A0520B /* Manager.swift in Sources */,
+				D17385711B8C511200A0520B /* Request.swift in Sources */,
+				D17385771B8C511200A0520B /* KGDrawerSpringAnimator.swift in Sources */,
+				D17385721B8C511200A0520B /* ResponseSerialization.swift in Sources */,
 				D177144C1B8C04D500362A44 /* AppDelegate.swift in Sources */,
+				D17385681B8C511200A0520B /* LeftViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +342,6 @@
 			targetProxy = D177145C1B8C04D600362A44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D177144F1B8C04D500362A44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D17714501B8C04D500362A44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D17714541B8C04D500362A44 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D17714551B8C04D500362A44 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D17714631B8C04D600362A44 /* Debug */ = {
@@ -340,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AKWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AKWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +500,7 @@
 				D17714671B8C04D600362A44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D17714681B8C04D600362A44 /* Build configuration list for PBXNativeTarget "AKWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +509,7 @@
 				D177146A1B8C04D600362A44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
